@@ -1,0 +1,8 @@
+Faces	♻
+Jobs	♾
+Paths	⚒
+Landmarks	⚙
+Geographic features	⚛
+Sports	⚠
+Stores	⚪
+Weapons	✂
