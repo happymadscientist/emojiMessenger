@@ -16,3 +16,42 @@
 .btn-group button:hover {
     background-color: #3e8e41;
 }
+
+.sent-speech-bubble { 
+	position: relative;
+	background: #00aabb;
+	text-align: center;
+	border-radius: .4em;
+	   } 
+
+.message-box {
+	overflow-y: scroll;
+}
+.sent-speech-bubble:after {
+	content: ''; 
+	position: absolute;
+	right: 0; top: 50%; 
+	width: 0;
+	height: 0;
+	border: 13px solid transparent;
+	border-left-color: #00aabb;
+	border-right: 0;
+	margin-top: -13px;
+	margin-right: -13px;
+	}
+
+.received-speech-bubble { 
+	position: relative; 
+	background: #ff0000; 
+	border-radius: .4em; 
+	text-align: center;
+	} 
+
+.received-speech-bubble:after { 
+	content: ''; position: absolute; 
+	left: 0; top: 50%; width: 0; 
+	height: 0; 
+	border: 13px solid transparent; 
+	border-right-color: #ff0000; 
+	border-left: 0; margin-top: -13px; 
+	margin-left: -13px; }
